@@ -1,0 +1,63 @@
+img[title="bottom3"]
+{
+	margin : 10px 20px 10px 0px;
+}
+
+img[title="bottom6"]
+{
+	height:50%;
+	width:50%;	
+}
+
+figure.thumbnail3:hover figcaption.popup, figure.thumbnail2:hover figcaption.popup, figure.thumbnail4:hover figcaption.popup
+{
+    position: absolute;
+    top: 800px;
+    left: 100px;
+    visibility: visible;
+}
+
+figure.thumbnail2, figure.thumbnail4
+{
+    display: inline;
+	margin: 10px -10px 0px -10px;
+}
+
+figure.thumbnail3
+{
+	display: inline;
+	margin: 0 -10px 0 10px;
+}
+
+figure.thumbnail3:hover img.popup 
+{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+     
+    visibility: visible;
+}
+
+figure.thumbnail2:hover img.popup 
+{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+     
+    visibility: visible;
+}
+
+figure.thumbnail4:hover img.popup 
+{
+    position: absolute;
+    top: 400px;
+    left: 350px;
+     
+    visibility: visible;
+}
+
+img.popup
+{
+    position: absolute;    
+    visibility: hidden;
+}
